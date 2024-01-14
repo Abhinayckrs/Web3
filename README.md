@@ -21,11 +21,6 @@ Make sure you have the following installed on your system:
 2. Provide your MetaMask account in `/web3/client/src/utils/constants.js`.
 3. Execute your transactions through the localhost.
 
-If you're using this code directly, you may skip the following steps:
-
-- Run Vite with the command `npm init vite@latest`.
-- Install Hardhat with the command `npx hardhat`.
-
 ## Usage
 
 1. Run `npm run dev` in the terminal.
