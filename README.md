@@ -1,6 +1,6 @@
 # Web3
 
-Web3 is a user interface that allows you to send Ethereum from one account to another using MetaMask.
+Krypt is a user interface that allows you to send Ethereum from one account to another using MetaMask.
 
 ## Key Features
 
