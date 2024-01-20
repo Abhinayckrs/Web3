@@ -18,7 +18,7 @@ Make sure you have the following installed on your system:
 ## Installation Steps
 
 1. Create a MetaMask account.
-2. Provide your MetaMask account in `/web3/client/src/utils/constants.js`.
+2. Provide your Smart Contract account in `/web3/client/src/utils/constants.js`.
 3. Execute your transactions through the localhost.
 
 ## Usage
