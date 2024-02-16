@@ -17,9 +17,13 @@ contract Transactions {
      TransferStruct[] transactions;
 
      function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public { 
+        console.log("Reached till here");
         transactionCount += 1;
          transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, keyword));
           emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
+
+          // Add a console log to indicate that the function is being called
+    console.log("addToBlockchain function called. Receiver:", receiver, "Amount:", amount, "Message:", message, "Keyword:", keyword);
      }
 
      function getAllTransactions() public view returns(TransferStruct[] memory){
